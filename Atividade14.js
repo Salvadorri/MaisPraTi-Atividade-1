@@ -1,6 +1,6 @@
 const input = require("readline-sync");
 
-let number = input.questionInt("Digite o número para ver a tabuada dele: ");
+let number = input.questionInt("Digite o número para ver a fatorial dele: ");
 
 if (number < 0) {
   console.log("Por favor, insira um número não negativo.");
