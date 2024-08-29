@@ -1,17 +1,45 @@
 # Atividade 1 +prati
 
-Para rodar os codigos será necessario clonar o repositorio e ter instalado o Nodejs.
-Após clonar o repositorio, entre no mesmo, dentro dele está incluso o readline-sync que será necessario para rodar os codigos.
-Precisaremos da extenção code runners para rodar os códigos, baixe-a no menu de extenções do vscode e depois no menu de extenções clique na engrenagem ao lado da extenção e vá em "Extension setting".
+Este repositório contém os códigos para a Atividade 1 do programa +prati.
 
-![alt text](image.png)
+## Pré-requisitos
 
-Agora procure pela opção "Code runner: Run in terminal" e marque a caixa dela.
+- Node.js instalado
+- (Opicional) Extensão Code Runner para VSCode
 
-![alt text](image-1.png)
+## Configuração
 
-Agora apenas precisa selecionar a atividade e clicar no botão play na parte de cima do codigo para a esquerda.
+1. Clone este repositório:
+   ```
+   git clone https://github.com/Salvadorri/MaisPraTi-Atividade-1
+   ```
 
-![alt text](image-2.png)
+2. Abra o projeto no VSCode.
 
-Ou vocẽ pode rodar o código atraves do terminal, para isso será necessario entrar no repositorio clonado, e digitar: node "caminho-do-repositorio/clonado/Atividade1.js" até a ultima sendo a Atividade15.js
+3. Instale a extensão Code Runner no VSCode.
+
+4. Configure o Code Runner para executar no terminal:
+   - Clique na engrenagem ao lado da extensão Code Runner.
+   - Selecione "Extension Settings".
+   - Marque a opção "Code-runner: Run In Terminal".
+
+## Executando os códigos
+
+### Usando o Code Runner
+
+1. Abra o arquivo da atividade desejada (por exemplo, `Atividade1.js`).
+2. Clique no botão de play no canto superior direito do editor ou use o atalho `Ctrl+Alt+N`.
+
+### Usando o terminal
+
+1. Abra um terminal no diretório do projeto.
+2. Execute o comando:
+   ```
+   node Atividade1.js
+   ```
+   Substitua `Atividade1.js` pelo nome do arquivo que deseja executar.
+
+## Notas
+
+- O projeto inclui a biblioteca `readline-sync` para entrada de dados no console.
+- Certifique-se de ter todas as dependências instaladas antes de executar os códigos.
