@@ -34,6 +34,7 @@ Este repositório contém os códigos para a Atividade 1 do programa +prati.
 ### Usando o terminal
 
 1. Abra um terminal no diretório do projeto.
+   
 2. Execute o comando:
    ```
    node Atividade1.js
