@@ -1,18 +1,21 @@
 const input = require("readline-sync");
 
 const age = input.questionInt("Insira a idade: ");
-
-if (age <= 11) {
-  categoria = "criança";
+if (age < 0) {
+  console.log(`Insira uma idade válida`);
 } else {
-  if (age <= 17) {
-    categoria = "Adolecente";
+  if (age < 12) {
+    categoria = "criança";
   } else {
-    if (age <= 59) {
-      categoria = "Adulto";
+    if (age < 18) {
+      categoria = "Adolecente";
     } else {
-      categoria = "Idoso";
+      if (age < 60) {
+        categoria = "Adulto";
+      } else {
+        categoria = "Idoso";
+      }
     }
   }
+  console.log(`A classificação pela idade da pessoa é: ${categoria}`);
 }
-console.log(`A classificação pela idade da pessoa é: ${categoria}`);
