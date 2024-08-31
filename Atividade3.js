@@ -5,15 +5,10 @@ let estado;
 
 if (nota > 10 || nota < 0) {
   console.error("Nota deve estar entre 0 e 10");
+} else if (nota >= 6) {
+  console.log(`O aluno está Aprovado`);
+} else if (nota >= 4) {
+  console.log(`O aluno está em Recuperação`);
 } else {
-  if (nota >= 6) {
-    estado = "Aprovado";
-  } else {
-    if (nota >= 4) {
-      estado = "Recuperação";
-    } else {
-      estado = "Reprovado";
-    }
-  }
-  console.log(`O aluno está ${estado}`);
+  console.log(`O aluno está Reprovado`);
 }

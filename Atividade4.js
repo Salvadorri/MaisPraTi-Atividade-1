@@ -1,4 +1,4 @@
-const input = require("readline-sync");
+      const input = require("readline-sync");
 
 console.log("Cardapio:");
 console.log("Peixe = 1");
