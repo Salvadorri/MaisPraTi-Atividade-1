@@ -7,7 +7,7 @@ let c = input.questionFloat("Lado C: ");
 
 if (a + b > c && a + c > b && b + c > a) {
   if (a == b && a == c) {
-    console.log("O triângulo formado é Eqüilátero");
+    console.log("O triângulo formado é Equilátero");
   } else if (a == b || a == c || b == c) {
     console.log("O triângulo formado é Isósceles");
   } else {
